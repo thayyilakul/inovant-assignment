@@ -11,6 +11,8 @@ Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::redirect('/', '/login');
+
 Route::redirect('/home', '/products');
 
 Route::get('/products', [App\Http\Controllers\ProductController::class, 'index'])->name('home');

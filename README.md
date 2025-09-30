@@ -1,3 +1,5 @@
+# Inovant Solutions Assignment
+
 This is a Laravel-based web application developed for the Inovant Solutions Assignment. It uses Laravel for the backend, MySQL for the database.
 
 To run this project locally, make sure you have PHP (>= 8.0), Composer, Node.js, npm, and MySQL installed. Once your environment is ready, follow these steps:
